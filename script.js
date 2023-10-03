@@ -12,6 +12,7 @@ let valMemStored = "";
 function numButPress(num) {}
 function mathButPress(operator) {}
 function equalButPress() {}
+
 //Clears everything EXCEPT memory
 function clearButPress() {
   prevVal = ''
@@ -21,6 +22,13 @@ function clearButPress() {
   decimalClicked = false
   document.getElementById('entry').value = '0'
 }
-
-function copyButPress() {}
-function pasteButPress() {}
+//Store the current value in #entry in valMemStored
+function copyButPress() {
+    valMemStored = document.getElementById("entry").value
+}
+function pasteButPress() {
+    if(valMemStored) {
+        document.getElementById("entry").value;
+        newVal = valMemStored
+    }
+}
