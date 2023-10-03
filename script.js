@@ -12,14 +12,13 @@ let valMemStored = "";
 function numButPress(num) {}
 function mathButPress(operator) {}
 function equalButPress() {}
-
+//Clears everything EXCEPT memory
 function clearButPress() {
   prevVal = ''
   newVal = ''
   resultVal = ''
   mathOperator = ''
   decimalClicked = false
-  valMemStored = ''
   document.getElementById('entry').value = '0'
 }
 
