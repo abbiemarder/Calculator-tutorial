@@ -47,30 +47,38 @@ body {
 
 .btn-primary {
     background-color:  pink !important;
+    color: rgb(105, 105, 105);
 }
 .btn-light {
     background-color: rgb(255, 218, 176) !important;
+    color: rgb(105, 105, 105);
 }
 .btn-dark {
     background-color: rgb(255, 250, 176) !important;
+    color: rgb(105, 105, 105);
 }
 
 .btn-secondary {
     background-color: rgb(176, 255, 183) !important;
+    color: rgb(105, 105, 105);
 }
 
 .btn-danger {
     background-color: rgb(176, 230, 255) !important;
+    color: rgb(105, 105, 105);
 }
 
 .btn-success {
     background-color: rgb(222, 182, 255) !important;
+    color: rgb(105, 105, 105);
 }
 
 .btn-warning {
     background-color: rgb(255, 182, 182) !important;
+    color: rgb(105, 105, 105);
 }
 
 .btn-info {
-    background-color: rgb(136, 136, 136) !important;
+    background-color: rgb(173, 173, 173) !important;
+    color: rgb(105, 105, 105);
 }
