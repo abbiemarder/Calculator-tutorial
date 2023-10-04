@@ -9,7 +9,30 @@ let decimalClicked = false;
 //Hold values we want stored in memory
 let valMemStored = "";
 
-function numButPress(num) {}
+function numButPress(num) {
+  //Check if a number has already been clicked
+  if (resultVal) {
+    //Start new number
+    newVal = num;
+    //Reset to create a new result
+    resultVal = "";
+  } else {
+    //Used to block multi decimals
+    if (num === ".") {
+      if (decimalClicked != true)
+        //Take the current value of newVal and add the character pressed
+        newVal += num;
+      //Sets decimal check var to true, won't allow more
+      decimalClicked = true;
+    } else {
+      newVal += num;
+    }
+  }
+  //update the display
+  document.getElementById("entry").value = newVal;
+} 
+ 
+
 function mathButPress(operator) {}
 function equalButPress() {}
 
