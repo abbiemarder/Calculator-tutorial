@@ -80,5 +80,8 @@ body {
 
 .btn-info {
     background-color: rgb(173, 173, 173) !important;
-    color: rgb(105, 105, 105);
+    color: rgb(131, 131, 131);
+}
+.btn:hover {
+    color: black;
 }
